@@ -1,1 +1,62 @@
-
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+}
+h3{
+    color: aliceblue;
+}
+#topNav{
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+#topNav a{
+    float: left;
+    display:block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5rep;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+}
+#searchContainer{
+    float:right;
+}
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+#thumbnail{
+    height: 340px;
+    width: 285px;
+    border-radius: 20px;
+}
+#column{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+#card{
+    border-radius:20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30; 
+    color: aliceblue;
+}
