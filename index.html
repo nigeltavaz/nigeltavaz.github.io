@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TECHFARM</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/6036a3b2c4.js" crossorigin="anonymous"></script>
+    <title>TECHGENIUS</title>
 </head>
 <body>
-    <div id="topNav">
-        <a id="active" href="#">TECHFARM</a>
-        <div id="searchContainer">
-            <form role="search" id="form">
-                <input type="search" id="query" name="q" placeholder="SEARCH...">
-
-            </form>
+    <header id="header">
+        <a href="#"><img src="images/logo.png" alt="logo" id="logo"></a>
+        <h1 class="h1">NIGEL TAVAGUTA</h1>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!--<li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>-->
+                <li id="shopBag"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
         </div>
-    
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>         
+        </div>
+    </header>
+    <div id="content">
+        <p id="details">
+            NAME:       <b>Nigel Tavaguta</b><br>
+            PROGRAM:    <b>HCS</b><br>
+            UNIVERSITY: <b>University of Zimbabwe</b><br>
+        </p>
+        <br>
+        <ul>
+            <li>Phones</li>
+            <li>Laptops</li>
+            <li>Assessories</li>
+        </ul>
     </div>
-    <section>
-        <div id="row">
-            <div id="column">
-                <div id="card">
-                    <center><img src="img.jpg" id="thumbnail"></center>
-                    <h2>GADGET NAME</h2>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>            
+        </div>
+    </div>
+    <footer class="section-p1">
+        <div class="col">
+            <!--<img src="images/logo.png" alt="logo" class="logo">-->
+            <h4>Contacts</h4>
+            <p>ADDRESS: <b>52 Robinson Hs, Harare</b></p>
+            <p>PHONE: <b>0788918512</b></p><br>
+            <div class="icon">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
-    </section>
-    
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Chart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        
+    </footer>    
 </body>
 <script src="script.js"></script>
 </html>
