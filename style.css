@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', sans-serif;   
+    font-family: 'Courier New', sans-serif;  
 }
 h1{
     text-align: center;
@@ -93,7 +93,7 @@ p{
 }
 #content{
     /*background-image: url("images/background.png");*/
-    height: 90vh;
+    height: 50vh;
     width: 100%;
     background-size: cover;
     background-position: 25% right 0;
@@ -101,6 +101,28 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+#home{
+    background-image: url("images/background1.png");
+    font-weight: 900;
+}
+video{
+    height: 30vh;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+#audio{
+    align-items: center;
+}
+audio{
+    margin-left: 40%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: red;
 }
  
 
@@ -306,10 +328,10 @@ button{
 #cart table thead td{
     font-weight: bolder;
     font-size: 12px;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 #cart table tbody tr td{
-    padding-top: 14px;
+    padding-top: 5px;
 }
 #cart table img{
     width: 50px;
@@ -331,3 +353,6 @@ button{
     border: 1px solid;
     padding: 10px;
 }
+
+
+
