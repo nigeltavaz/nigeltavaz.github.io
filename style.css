@@ -1,1 +1,143 @@
+.form {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 300px;
+    height: 472px;
+    padding: 25px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-top: 10% ;
+    margin-left: 50% 
+}
 
+.form-body{
+    position: absolute;
+    top: 85px;
+    width: 230px;
+    margin: -156 auto 0 auto;
+}
+
+.spotify-text{
+    text-align: center;
+    line-height: 1;
+}
+
+.spotify-text-1{
+    color: #00ff55;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.spotify-text-2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.input-area{
+    margin-top: 40px;
+}
+
+.form-inp{
+    padding: 10px 25px;
+    background: transparent;
+    line-height: 1;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px
+}
+
+.form-inp:focus{
+    border:1px solid #00ff55;
+}
+
+.form-inp:first-child{
+    margin-bottom:15px;
+}
+
+.form-inp input{
+    width: 100%;
+    background: none;
+    font-size: 14px;
+    color: #00ff55;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-inp input:focus{
+    outline: none;
+}
+
+.login-btn{
+    margin-top: 20px;
+}
+
+.submit-btn{
+    display: block;
+    width: 100%;
+    color: #00ff55;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 16px;
+    border: none;
+    outline: #00ff55 1px solid;
+    border-radius: 8px;
+    line-height: 1px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.submit-btn:hover{
+    transition: all ease-in-out 0.3s;
+    background: #00ff55;
+    color: #161616;
+}
+
+.submit-btn:checked{
+    background: #f3f5f4;
+    color: #161616;
+
+}
+
+.password{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.password a{
+    color: #868686;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.bar{
+    position: absolute;
+    left: 50%;
+    bottom: -62px;
+    width: 28;
+    height: 8px;
+    margin-left: -33px;
+    background-color: #00ff55;
+    border-radius: 10px;
+}
+
+.bar:before,
+.bar:after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #ececec;
+    border-radius: 50%;
+}
+
+.bar:before{
+    right: -20px;
+}
+.bar:after{
+    right: -38px;
+}
